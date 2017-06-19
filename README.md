@@ -2,13 +2,13 @@
 
 Practice designing and buidling a test suite using Python and Selenium. A github account, oSelenium, was set up specifically for this script. 
 
-To run full test suite:
+#To run full test suite:
 python testSuite.py
 
-To run full test suite and export results (only shows results of all Tests - not individual)
+#To run full test suite and export results (only shows results of all Tests - not individual):
 python testSuite_export.py
 
-To run critial test suite:
+#To run critial test suite:
 python testSuite_critical.py
 
 

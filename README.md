@@ -1,8 +1,21 @@
 # testSuite
 
-Practice designing and buidling a test suite using Python and Selenium. A github account, oSelenium, was set up specifically for this script. 
+Practice designing and buidling a test suite using Python,Flask and Selenium. A github account, oSelenium, was set up specifically for this script but feel free to try it with your credentials (just edit the config file) !
 
-To run full test suite --> ('python testSuite.py')
+
+To run all tests through Flask API --> ('python testAPI.py')
+Once running, you will need to download Postman.
+
+To run, go to this URL in PostMan and send any of the following PUT requests
+http://localhost:8080/api/v1/login/all
+http://localhost:8080/api/v1/login/critical
+http://localhost:8080/api/v1/login/export
+
+
+
+
+################ WITHOUT API ############################
+To run full test suite  --> ('python testSuite.py')
 
 To run full test suite and export results (only shows results of all Tests - not individual) --> ('python testSuite_export.py')
 

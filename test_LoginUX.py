@@ -10,7 +10,7 @@ with open('config.json') as config:
 
 configName = data['username']
 configPasswd = data['password']
-
+configDriver = data['driver']
 
  
 class LoginTest(unittest.TestCase):
@@ -18,7 +18,7 @@ class LoginTest(unittest.TestCase):
     def setUp(inst):
         #### NOTE: add Firefox/Safari/Internet Explorer test cases ####
         # create a new Chrome session 
-        inst.driver = webdriver.Chrome('/Users/Paul/Downloads/chromedriver2')
+        inst.driver = webdriver.Chrome(configDriver)
         inst.driver.implicitly_wait(30)
         inst.driver.maximize_window()
  

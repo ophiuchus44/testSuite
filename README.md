@@ -1,6 +1,7 @@
 # testSuite
-
 Practice designing and buidling a test suite using Python,Flask and Selenium. A github account, oSelenium, was set up specifically for this script but feel free to try it with your credentials (just edit the config file) !
+
+In config file, update 'driver' to the location of your Selenium Driver.
 
 
 To run all tests through Flask API --> ('python testAPI.py')

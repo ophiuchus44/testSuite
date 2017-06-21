@@ -6,7 +6,7 @@ Practice designing and buidling a test suite using Python,Flask and Selenium. A 
 To run all tests through Flask API --> ('python testAPI.py')
 Once running, you will need to download Postman.
 
-To run, go to this URL in PostMan and send any of the following PUT requests
+To run tests from API, go to any of the following URLs in PostMan and send a PUT requests (nothing needed in body)
 http://localhost:8080/api/v1/login/all
 http://localhost:8080/api/v1/login/critical
 http://localhost:8080/api/v1/login/export
@@ -15,7 +15,7 @@ http://localhost:8080/api/v1/login/export
 
 
 ################ WITHOUT API ############################
-To run full test suite  --> ('python testSuite.py')
+To run full test suite  --> ('python testSuite_all.py')
 
 To run full test suite and export results (only shows results of all Tests - not individual) --> ('python testSuite_export.py')
 

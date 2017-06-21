@@ -1,5 +1,5 @@
 { 
 	"username" : "oSelenium",
-	"password" : "password123"
+	"password" : "password123" ,
+	"driver" : "/Users/Paul/Downloads/chromedriver2"
 }
-
